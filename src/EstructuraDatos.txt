@@ -1,0 +1,21 @@
+Explicación estructura de datos.
+
+
+Clases básicas:
+    DisenioImpl
+        -Esta clase representa un diseño de un vestido y uso tipos primitivos
+        (int y double) y datos de tipo String.
+        -Además tiene una excepción (ExcepcionDisenio) para controlar que el precio
+        sea positivo.
+
+    PeticionVentaImpl
+        -Esta clase representa una peticion de compraventa,
+        contiene un objeto DisenioImpl y una cantidad que se representa con un int
+        (representa qué cantidad se quiere de ese diseño de vestido).
+        -Además tiene una excepción (ExcepcionPeticion) para controlar que la cantidad sea
+        positiva.
+
+Uso arrays unidimensionales en el Main, para almacenar los diseños disponibles
+(array de objetos de tipo DisenioImpl) y otro array para almacenar
+las peticiones de venta de la semana (array de objetos de tipo PeticionVentaImpl)
+
